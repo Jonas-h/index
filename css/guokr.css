@@ -1,0 +1,122 @@
+html {
+  font-size: 20px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 16rem;
+  height: 2.325rem;
+  background: #262626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-bottom: .15rem solid #57c0af; }
+  header a {
+    text-decoration: none;
+    color: #fff; }
+  header h1 {
+    font-size: .95rem;
+    color: #fff; }
+  header .menu {
+    width: 1.5rem;
+    height: 1.2rem;
+    background: url(../img/menu.png) no-repeat;
+    background-size: 1.5rem 1.2rem;
+    text-indent: -249.975rem;
+    margin-left: .4rem; }
+  header .pc {
+    width: 1.5rem;
+    height: 1.2rem;
+    background: url(../img/pc.png) no-repeat;
+    background-size: 1.5rem 1.2rem;
+    text-indent: -9999em;
+    margin-right: .4rem; }
+
+section .login {
+  width: 16rem;
+  height: 2.025rem;
+  display: flex;
+  border-bottom: .025rem solid #ccc;
+  justify-content: space-between;
+  align-items: center; }
+  section .login .enter {
+    width: 6.55rem;
+    margin-left: 1.45rem;
+    border-right: .025rem solid #ccc;
+    height: 1.425rem;
+    background: url(../img/login.png) no-repeat;
+    background-size: 1.475rem 1.45rem;
+    text-align: right;
+    padding-right: 1.475rem; }
+    section .login .enter a {
+      text-decoration: none;
+      font-size: .7rem;
+      color: #807e89; }
+  section .login .enroll {
+    width: 6.55rem;
+    margin-left: 1.45rem;
+    height: 1.425rem;
+    background: url(../img/enr.png) no-repeat;
+    background-size: 1.475rem 1.45rem;
+    text-align: right;
+    padding-right: 1.475rem; }
+    section .login .enroll a {
+      text-decoration: none;
+      font-size: .7rem;
+      color: #807e89; }
+
+section .pic {
+  width: 16rem;
+  height: 7.825rem; }
+
+section .list {
+  width: 16rem;
+  height: 14.325rem;
+  border-bottom: .15rem solid #58c1b0; }
+  section .list .list_ul {
+    width: 100%;
+    height: 100%; }
+    section .list .list_ul li {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: .4rem;
+      width: 15.2rem;
+      height: 2rem;
+      border-bottom: .025rem solid #ccc; }
+      section .list .list_ul li a {
+        font-size: .725rem;
+        color: #202427;
+        padding-left: .325rem;
+        line-height: 2rem; }
+    section .list .list_ul .last {
+      border-bottom: none; }
+
+section .hotqa {
+  width: 16rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  section .hotqa h2 {
+    font-size: .725rem;
+    padding-left: .75rem; }
+  section .hotqa a {
+    width: 1.45rem;
+    height: 1.475rem;
+    padding-left: .75rem;
+    background: url(../img/hot.png) no-repeat;
+    background-size: 1.45rem 1.475rem; }
+
+section .science {
+  width: 16rem;
+  height: 2.05rem; }
+  section .science .science_ul {
+    width: 100%;
+    height: 100%;
+    display: flex; }
+    section .science .science_ul li {
+      width: 3.1rem;
+      height: 2.05rem; }
